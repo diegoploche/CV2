@@ -1,0 +1,245 @@
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+h1 {
+    color: #288BA8;
+    line-height: 2;
+    margin: 50px auto 0 auto;
+    font-size: 5.625rem;
+    font-family: 'Pacifico', cursive;
+}
+
+h2 {
+    color: #288BA8;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+h3 {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    color: #11999E;
+}
+
+p {
+    line-height: 1.5;
+}
+
+hr {
+    border-style: dotted none none none;
+    height: 0px;
+    border-color: #2EB086;
+    border-width: 5px;
+    width: 10%;
+}
+
+
+.top-container {
+    background-color: #E5E3C9;
+    border: 0;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container {
+    background-color: #E5E3C9;
+}
+
+.bottom-container {
+    background-color: #E5E3C9;
+
+}
+
+.skill-row {
+    margin: 100px auto 100px auto;
+    text-align: left;
+    width: 50%;
+}
+
+.skill1 {
+    float: left;
+    margin-right: 30px;
+    width: 35%;
+}
+
+.skill2 {
+    float: right;
+    margin-right: 30px;
+    width: 25%;
+}
+
+/*
+.code-skill1 {
+    clear: left;
+}
+
+.code-skill2 {
+    clear: right;
+}
+*/
+.footer-img {
+    margin-left: 7px;
+    padding-top: 30px;
+    width: 2rem;
+
+}
+
+.profile-img {
+    margin-top: 20px;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    text-shadow: 0px 1px 3px #11999e;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 5px 10px 5px 10px;
+    margin-left: 7px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto;
+}
+
+.background {
+    width: 100%;
+}
+
+
+svg .cls-21,
+svg .cls-20,
+svg .cls-19,
+svg .cls-22,
+svg .cls-14,
+svg .cls-23 {
+    animation-name: ship-move, ship-move1;
+    animation-duration: 6s, 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes ship-move {
+    0% {
+        transform: translate(0px);
+    }
+
+    50% {
+        transform: translate(6px);
+    }
+}
+
+@keyframes ship-move1 {
+    0% {
+        transform: rotate(2deg);
+    }
+
+    50% {
+        transform: rotate(-0.5deg);
+    }
+
+    100% {
+        transform: rotate(2deg);
+    }
+}
+
+svg .cls-4:first-child,
+svg .cls-5 {
+    animation-name: back-cloud-move;
+    animation-duration: 100s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform: translate(240px);
+}
+
+@keyframes back-cloud-move {
+    0% {
+        transform: translate(240px);
+    }
+
+    100% {
+        transform: translate(-240px);
+    }
+}
+
+svg .cls-4:not(:first-child),
+svg .cls-13 {
+    animation-name: cloud-move;
+    animation-duration: 70s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform: translate(-240px);
+}
+
+@keyframes cloud-move {
+    0% {
+        transform: translate(-240px);
+    }
+
+    100% {
+        transform: translate(240px);
+    }
+}
+
+svg .cls-24 {
+    animation-name: wave1-move;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform: translateY(1px);
+}
+
+@keyframes wave1-move {
+    0% {
+        transform: translateY(1px);
+    }
+
+    50% {
+        transform: translateY(-1px);
+    }
+}
+
+svg .cls-25 {
+    animation-name: wave2-move;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform: translateY(0px);
+}
+
+@keyframes wave2-move {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(1px);
+    }
+}
